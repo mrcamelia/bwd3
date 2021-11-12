@@ -16,6 +16,9 @@ body {
     margin-bottom: 60px;
     text-align: center;
 }
+#header h3{
+    margin-top: 65px;
+}
 
 
 .box{
@@ -38,10 +41,7 @@ body {
 .box p{
     margin-left: 18px; 
     margin-right: 21px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 19px;
     color: hsl(229, 6%, 66%);
 }
@@ -74,7 +74,7 @@ body {
         position: relative;
         margin-left: auto;
         margin-right: auto;
-        height: 590px;
+        height: 550px;
         width: 1100px;
     }
     header h3{
