@@ -1,15 +1,17 @@
 body {
     background-color: hsl(0, 0%, 98%);
     font-family: "Poppins";
-    font: 15px;
+    font-size: 15px;
     margin: 0;
     text-align: center;
-    line-height:22px;
+    line-height:25px;
     max-width: 2000px;
 }
 
 #header {
-    line-height:22px;
+    line-height:25px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
@@ -29,8 +31,6 @@ body {
 }
 
 .box h2{
-    font-family: Poppins;
-    font-size: 22px;
     margin-left: 18px; 
     margin-right: 21px;
 }
@@ -41,7 +41,7 @@ body {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 19px;
     color: hsl(229, 6%, 66%);
 }
@@ -53,15 +53,8 @@ body {
 }
 
 @media (min-width: 320px) {
-    #header{
-        font-size: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #header h3{
-        width: 43%;
-        margin-left: auto;
-        margin-right: auto;
+    #header {
+        font-size: 0.75rem;
     }
     .boxes {
         display: inline-table;
@@ -71,9 +64,11 @@ body {
 
 @media (min-width: 1280px) {
     #header{
+        width : 55%;
         font-size: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
+    }
+    #header h3{
+        line-height:35px;
     }
     .layout{
         position: relative;
@@ -81,6 +76,9 @@ body {
         margin-right: auto;
         height: 590px;
         width: 1100px;
+    }
+    header h3{
+        margin:0 300px;
     }
     .box{
         position:absolute;
